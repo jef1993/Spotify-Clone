@@ -1,0 +1,20 @@
+.header {
+  height: 8rem;
+  background-color: $--color-black;
+}
+
+.main {
+  height: 84.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $--color-secondary;
+  color: $--color-primary;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: $--color-black;
+  padding: 8rem 5rem;
+}
