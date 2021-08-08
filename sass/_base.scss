@@ -1,6 +1,7 @@
 $--color-black: rgb(0, 0, 0);
 $--color-grey-1: rgb(145, 148, 150);
 $--color-grey-2: rgb(217, 218, 220);
+$--color-grey-3: rgb(34, 35, 38);
 $--color-white: rgb(255, 255, 255);
 
 $--color-primary: rgb(30, 215, 96);
@@ -9,3 +10,47 @@ $--color-secondary: rgb(41, 65, 171);
 $--font-main: "Montserrat", sans-serif;
 $--font-thick: 700;
 $--font-thin: 400;
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: $--font-main;
+  font-weight: $--font-thin;
+  color: $--color-white;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $--color-white;
+
+  &:hover {
+    color: $--color-primary;
+  }
+}
