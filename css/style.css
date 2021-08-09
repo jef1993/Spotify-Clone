@@ -245,22 +245,22 @@ a:hover {
   opacity: 0;
   transform: translateX(30rem);
 }
-.nav-mobile__item--1 {
+.nav-mobile__item:nth-child(1) {
   transition: all 0.2s;
 }
-.nav-mobile__item--2 {
+.nav-mobile__item:nth-child(2) {
   transition: all 0.2s 25ms;
 }
-.nav-mobile__item--3 {
+.nav-mobile__item:nth-child(3) {
   transition: all 0.2s 50ms;
 }
-.nav-mobile__item--4 {
+.nav-mobile__item:nth-child(4) {
   transition: all 0.2s 75ms;
 }
-.nav-mobile__item--5 {
+.nav-mobile__item:nth-child(5) {
   transition: all 0.2s 100ms;
 }
-.nav-mobile__item--6 {
+.nav-mobile__item:nth-child(6) {
   transition: all 0.2s 125ms;
 }
 .nav-mobile__link {

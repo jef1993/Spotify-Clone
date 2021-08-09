@@ -200,27 +200,27 @@
   }
 
   &__item {
-    &--1 {
+    &:nth-child(1) {
       transition: all 0.2s;
     }
 
-    &--2 {
+    &:nth-child(2) {
       transition: all 0.2s 25ms;
     }
 
-    &--3 {
+    &:nth-child(3) {
       transition: all 0.2s 50ms;
     }
 
-    &--4 {
+    &:nth-child(4) {
       transition: all 0.2s 75ms;
     }
 
-    &--5 {
+    &:nth-child(5) {
       transition: all 0.2s 100ms;
     }
 
-    &--6 {
+    &:nth-child(6) {
       transition: all 0.2s 125ms;
     }
   }
