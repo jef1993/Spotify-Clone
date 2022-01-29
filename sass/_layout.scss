@@ -1,3 +1,10 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .header {
   height: 8rem;
   background-color: $--color-black;
@@ -8,9 +15,9 @@
 }
 
 .main {
-  height: 100vh;
-  max-height: 95rem;
+  height: auto;
   min-height: 85rem;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
