@@ -39,7 +39,6 @@ a:hover {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .header {
@@ -62,7 +61,6 @@ a:hover {
   align-items: center;
   background-color: #2941ab;
   color: #1ed760;
-  flex-wrap: wrap;
 }
 .footer {
   background-size: auto;
